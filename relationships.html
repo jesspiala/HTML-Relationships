@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CSS Relationships</title>
+
+	<style type="text/css">
+		section:nth-child(1) > h1 {
+			color: red;
+		}
+
+		article a {
+			color: darkblue;
+		}
+
+		article p + a {
+			color: lightseagreen;
+		}
+
+		article p + a:hover {
+			color: darkblue;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="main-content">
+		<section class="article">
+			<h1>Latest Posts</h1>
+
+			<article>
+				<h1>Today's rants</h1>
+				<p>Lorem ipsum dolor sit amet, zril discere ut mei, aliquam fuisset maiestatis eam ne. Mandamus reformidans at qui, ornatus propriae postulant te usu. Impedit dissentiet instructior duo id, eu sumo invenire adolescens cum, eu pro nobis probatus dignissim. Perfecto mediocritatem per ut, mollis utroque facilisi ea vel. In nusquam invenire his, ut affert placerat argumentum eam...
+				<a href="#">More</a>
+				</p>
+				<a href="#">Rate</a>
+			</article>
+
+			<article>
+				<h1>Today's rants</h1>
+				<p>Lorem ipsum dolor sit amet, zril discere ut mei, aliquam fuisset maiestatis eam ne. Mandamus reformidans at qui, ornatus propriae postulant te usu. Impedit dissentiet instructior duo id, eu sumo invenire adolescens cum, eu pro nobis probatus dignissim. Perfecto mediocritatem per ut, mollis utroque facilisi ea vel. In nusquam invenire his, ut affert placerat argumentum eam...
+				<a href="#">More</a>
+				</p>
+				<a href="#">Rate</a>
+			</article>
+		</section>
+
+		<section class="article">
+			<h1>Archived Posts</h1>
+
+			<article>
+				<h1>Old rants</h1>
+				<p>Lorem ipsum dolor sit amet, zril discere ut mei, aliquam fuisset maiestatis eam ne. Mandamus reformidans at qui, ornatus propriae postulant te usu. Impedit dissentiet instructior duo id, eu sumo invenire adolescens cum, eu pro nobis probatus dignissim. Perfecto mediocritatem per ut, mollis utroque facilisi ea vel. In nusquam invenire his, ut affert placerat argumentum eam...
+				<a href="#">More</a>
+				</p>
+			</article>
+
+			
+		</section>
+
+			<h1>Post 3</h1>
+
+			<article>
+				<h1>Today's rants</h1>
+				<p>Lorem ipsum dolor sit amet, zril discere ut mei, aliquam fuisset maiestatis eam ne. Mandamus reformidans at qui, ornatus propriae postulant te usu. Impedit dissentiet instructior duo id, eu sumo invenire adolescens cum, eu pro nobis probatus dignissim. Perfecto mediocritatem per ut, mollis utroque facilisi ea vel. In nusquam invenire his, ut affert placerat argumentum eam...
+				<a href="#">More</a>
+				</p>
+				<a href="#">Rate</a>
+			</article>
+
+			<article>
+				<h1>Today's rants</h1>
+				<p>Lorem ipsum dolor sit amet, zril discere ut mei, aliquam fuisset maiestatis eam ne. Mandamus reformidans at qui, ornatus propriae postulant te usu. Impedit dissentiet instructior duo id, eu sumo invenire adolescens cum, eu pro nobis probatus dignissim. Perfecto mediocritatem per ut, mollis utroque facilisi ea vel. In nusquam invenire his, ut affert placerat argumentum eam...
+				<a href="#">More</a>
+				</p>
+				<a href="#">Rate</a>
+			</article>
+		</section>
+
+		<section class="article">
+			<h1>Post 4</h1>
+
+			<article>
+				<h1>Old rants</h1>
+				<p>Lorem ipsum dolor sit amet, zril discere ut mei, aliquam fuisset maiestatis eam ne. Mandamus reformidans at qui, ornatus propriae postulant te usu. Impedit dissentiet instructior duo id, eu sumo invenire adolescens cum, eu pro nobis probatus dignissim. Perfecto mediocritatem per ut, mollis utroque facilisi ea vel. In nusquam invenire his, ut affert placerat argumentum eam...
+				<a href="#">More</a>
+				</p>
+			</article>
+
+			
+		</section>
+		<aside>
+			<section class="glossary">
+				<dl>
+					<dt>Term1</dt>
+					<dd>Definition for term1</dd>
+				</dl>
+
+			</section>
+		</aside>
+
+	</div>
+
+	<footer>
+		<small>&copy; 2014. All rights reserved. </small>
+		<p>See our <a href="#">Terms &amp; Condition </a></p>
+
+	</footer>
+
+</body>
+</html>
